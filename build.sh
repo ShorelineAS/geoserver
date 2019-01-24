@@ -13,9 +13,9 @@ docker build --build-arg GS_VERSION=${MAJOR}.${MINOR}.${BUGFIX} -t shoreline/geo
 
 # Build Arguments - To change the defaults when building the image
 #need to specify a different value.
-```
---build-arg ORACLE_JDK=true
---build-arg COMMUNITY_MODULES=true
---build-arg TOMCAT_EXTRAS=false
---build-arg WAR_URL=http://downloads.sourceforge.net/project/geoserver/GeoServer/<GS_VERSION>/geoserver-<GS_VERSION>-war.zip
-```
+#```
+#--build-arg ORACLE_JDK=true
+#--build-arg COMMUNITY_MODULES=true
+#--build-arg TOMCAT_EXTRAS=false
+#--build-arg WAR_URL=http://downloads.sourceforge.net/project/geoserver/GeoServer/<GS_VERSION>/geoserver-<GS_VERSION>-war.zip
+#```
