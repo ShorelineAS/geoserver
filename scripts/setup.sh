@@ -48,24 +48,24 @@ pushd ${work_dir}/plugins
 #Extensions
 
 # Vector tiles
-wget -c https://tenet.dl.sourceforge.net/project/geoserver/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-vectortiles-plugin.zip -O geoserver-${GS_VERSION}-vectortiles-plugin.zip
+wget -c http://tenet.dl.sourceforge.net/project/geoserver/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-vectortiles-plugin.zip -O geoserver-${GS_VERSION}-vectortiles-plugin.zip
 # CSS styling
-wget -c https://tenet.dl.sourceforge.net/project/geoserver/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-css-plugin.zip -O geoserver-${GS_VERSION}-css-plugin.zip
+wget -c http://tenet.dl.sourceforge.net/project/geoserver/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-css-plugin.zip -O geoserver-${GS_VERSION}-css-plugin.zip
 
 #CSW
-wget -c https://tenet.dl.sourceforge.net/project/geoserver/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-csw-plugin.zip -O geoserver-${GS_VERSION}-csw-plugin.zip
+wget -c http://tenet.dl.sourceforge.net/project/geoserver/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-csw-plugin.zip -O geoserver-${GS_VERSION}-csw-plugin.zip
 # WPS
-wget -c https://tenet.dl.sourceforge.net/project/geoserver/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-wps-plugin.zip -O geoserver-${GS_VERSION}-wps-plugin.zip
+wget -c http://tenet.dl.sourceforge.net/project/geoserver/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-wps-plugin.zip -O geoserver-${GS_VERSION}-wps-plugin.zip
 # Printing plugin
-wget -c https://tenet.dl.sourceforge.net/project/geoserver/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-printing-plugin.zip -O geoserver-${GS_VERSION}-printing-plugin.zip
+wget -c http://tenet.dl.sourceforge.net/project/geoserver/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-printing-plugin.zip -O geoserver-${GS_VERSION}-printing-plugin.zip
 #libjpeg-turbo
-wget -c https://tenet.dl.sourceforge.net/project/geoserver/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-libjpeg-turbo-plugin.zip -O geoserver-${GS_VERSION}-libjpeg-turbo-plugin.zip
+wget -c http://tenet.dl.sourceforge.net/project/geoserver/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-libjpeg-turbo-plugin.zip -O geoserver-${GS_VERSION}-libjpeg-turbo-plugin.zip
 #Control flow
-wget -c https://sourceforge.net/projects/geoserver/files/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-control-flow-plugin.zip/download -O geoserver-${GS_VERSION}-control-flow-plugin.zip
+wget -c http://sourceforge.net/projects/geoserver/files/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-control-flow-plugin.zip/download -O geoserver-${GS_VERSION}-control-flow-plugin.zip
 #Image pyramid
-wget -c https://sourceforge.net/projects/geoserver/files/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-pyramid-plugin.zip/download -O geoserver-${GS_VERSION}-pyramid-plugin.zip
+wget -c http://sourceforge.net/projects/geoserver/files/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-pyramid-plugin.zip/download -O geoserver-${GS_VERSION}-pyramid-plugin.zip
 #GDAL
-wget -c https://sourceforge.net/projects/geoserver/files/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-gdal-plugin.zip/download -O geoserver-${GS_VERSION}-gdal-plugin.zip
+wget -c http://sourceforge.net/projects/geoserver/files/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-gdal-plugin.zip/download -O geoserver-${GS_VERSION}-gdal-plugin.zip
 #importer
 wget -c http://sourceforge.net/projects/geoserver/files/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-importer-plugin.zip/download -O geoserver-${GS_VERSION}-importer-plugin.zip
 
