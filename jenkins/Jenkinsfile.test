@@ -1,0 +1,2 @@
+@Library('shoreline-pipeline') _
+GeoserverProduction.configurePipeline(this);
